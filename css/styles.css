@@ -1,24 +1,51 @@
 body{
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-font-size: 200%;}
+}
 
 
 h1{
+  color: #66BFBF;
   margin-top: 50px;
   font-size: 5.625rem;
   font-family: 'Sacramento', cursive;
 }
 h2{
+  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+
+  line-height: 2;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bold;
+  font-size: 2rem;
 }
+a{
+  color: #11999E;
+}
+p{
+ line-height: 2;
+
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 4%;
+  border-color: #11999E;
+  border-width: 5px;
+  opacity: 25%;
+}
+
   .top-container {
-  background-color: #caf7e3;
+  background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
 
@@ -32,4 +59,48 @@ h3{
   position: absolute;
   left: 200px;
   bottom: 200px;
+}
+.skills-container{
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+.circular{
+  border-radius: 100%;
+}
+
+
+.hello-container{
+  align-items: center;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 1.5;
+  width: 50%;
+  margin: auto;
+}
+.skills{
+  width: 50%;
+  align-items: center;
+  margin: auto;
+}
+.skills-row{
+  text-align: left;
+}
+#raj-img{
+  margin-top: 5%;
+  width: 30%;
+}
+#iot-img{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+#dsg-img{
+  width: 27%;
+  float: right;
+  margin-left: 30px;
+}
+#intro-msg{
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
